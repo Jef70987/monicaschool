@@ -16,8 +16,7 @@ const Footer = () => {
               <h3 className="text-xl font-bold">St. Monicah High</h3>
             </div>
             <p className="text-gray-200 text-sm">"Excellence Through Faith and Diligence"</p>
-            <p className="text-gray-300 text-xs mt-2">KNEC Code: 38725016</p>
-            <p className="text-gray-300 text-xs">UIC: SMLB</p>
+          
           </div>
 
           {/* Quick Links */}
