@@ -3,11 +3,15 @@ const Footer = () => {
     <footer className="bg-[#800020] text-white">
       <div className="w-full px-4 md:px-8 lg:px-12 py-12">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
-          {/* School Info */}
+          {/* School Info with Logo */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 bg-[#FFFDD0] rounded-lg flex items-center justify-center">
-                <span className="text-[#800020] font-bold text-xl">SMH</span>
+              <div className="w-10 h-10 rounded-lg overflow-hidden bg-white flex items-center justify-center">
+                <img 
+                  src="/images/logomonic.jpeg" 
+                  alt="St. Monicah High School Logo"
+                  className="w-full h-full object-cover"
+                />
               </div>
               <h3 className="text-xl font-bold">St. Monicah High</h3>
             </div>

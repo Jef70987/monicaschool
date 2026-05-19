@@ -59,7 +59,6 @@ const Navigation = () => {
             Link: "/Clubs",
             sectionId: "clubs"
         },
-        
         {
             title: "Facilities",
             Link: "/Facilities",
@@ -114,16 +113,16 @@ const Navigation = () => {
                 <span className={`block w-6 h-0.5 bg-current transition-all duration-300 ${isOpen ? '-rotate-45 -translate-y-1.5' : ''}`}></span>
             </button>
 
-            {/* Mobile Dropdown Menu */}
+            {/* Mobile Dropdown Menu - Fixed positioning */}
             {isOpen && (
-                <div className="absolute top-full left-0 mt-2 w-52 bg-white border border-gray-200 rounded-lg shadow-xl z-50 lg:hidden">
+                <div className="fixed top-16 left-0 right-0 mt-0 bg-white border-t border-gray-200 shadow-xl z-50 lg:hidden max-h-[calc(100vh-4rem)] overflow-y-auto">
                     <div className="flex flex-col py-2">
                         {Navlinks.map((item, index) => (
                             <a 
                                 key={index} 
                                 href={item.Link}
                                 onClick={(e) => handleLinkClick(e, item)}
-                                className="text-gray-700 hover:text-[#800020] hover:bg-gray-50 text-sm font-medium transition-colors duration-200 px-4 py-3 cursor-pointer"
+                                className="text-gray-700 hover:text-[#800020] hover:bg-gray-50 text-base font-medium transition-colors duration-200 px-6 py-4 cursor-pointer border-b border-gray-100 last:border-0"
                             >
                                 {item.title}
                             </a>

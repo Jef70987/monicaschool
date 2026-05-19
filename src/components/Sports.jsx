@@ -7,7 +7,7 @@ const Sports = () => {
       name: "Football (Soccer)",
       category: "Ball Games",
       teams: "Boys & Girls Teams",
-      image: "public/images/sportsgirls1.jpeg",
+      image: "/images/sportsgirls1.jpeg",
       achievements: "KSSSA Regional Champions 2024"
     },
     {

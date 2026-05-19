@@ -26,7 +26,7 @@ const Departments = () => {
       motto: "Bridging Cultures Through Words",
       head: "Mrs. Rose Atieno",
       staff: 7,
-      image: "https://images.pexels.com/photos/290595/pexels-photo-290595.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "/images/langdepartment.jpeg",
       description: "English, Kiswahili, French, and German languages with literary excellence."
     },
     {
