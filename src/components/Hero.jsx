@@ -39,7 +39,7 @@ const Hero = () => {
           {/* Motto */}
           <div className="mb-8">
             <p className="text-2xl md:text-3xl lg:text-4xl font-light italic text-white/95">
-              "Excellence Through Faith and Diligence"
+              "For Excellence God Guides"
             </p>
           </div>
 
