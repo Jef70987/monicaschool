@@ -15,7 +15,7 @@ const Footer = () => {
               </div>
               <h3 className="text-xl font-bold">St. Monicah High</h3>
             </div>
-            <p className="text-gray-200 text-sm">"Excellence Through Faith and Diligence"</p>
+            <p className="text-gray-200 text-sm">"For Excellence God Guides"</p>
           
           </div>
 
