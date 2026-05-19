@@ -7,49 +7,49 @@ const Achievements = () => {
       icon: <FaGraduationCap className="w-10 h-10" />,
       title: "Academic Excellence",
       description: "Mean score improved from 7.8 to 9.2 in 5 years. 88.6% university qualification rate in 2025 KCSE.",
-      image: "public/images/academicpic1.jpeg",
+      image: "/images/academicpic1.jpeg",
       year: "2025"
     },
     {
       icon: <FaTheaterMasks className="w-10 h-10" />,
       title: "Drama Festival Champions",
       description: "County champions 2023 & 2024. Best actor award at regional level. Qualified for national festival.",
-      image: "public/images/dramafest2.jpeg",
+      image: "/images/dramafest2.jpeg",
       year: "2024"
     },
     {
       icon: <FaMusic className="w-10 h-10" />,
       title: "Music Festival Awards",
       description: "First place in traditional music category 2024. Second place in choral verse 2025.",
-      image: "public/images/musicfest1.jpeg",
+      image: "/images/musicfest1.jpeg",
       year: "2025"
     },
     {
       icon: <FaFutbol className="w-10 h-10" />,
       title: "Sports Achievements",
       description: "KSSSA regional football champions 2024. Volleyball county champions 2025.",
-      image: "public/images/sportsboyz1.jpeg",
+      image: "/images/sportsboyz1.jpeg",
       year: "2025"
     },
     {
       icon: <FaBus className="w-10 h-10" />,
       title: "New School Bus",
       description: "Modern 60-seater bus acquired in 2025, improving student transportation safety and efficiency.",
-      image: "public/images/monicabus 2026-05-19 at 1.14.55 AM (1).jpeg",
+      image: "/images/monicabus 2026-05-19 at 1.14.55 AM (1).jpeg",
       year: "2025"
     },
     {
       icon: <FaBuilding className="w-10 h-10" />,
       title: "New Storey Building",
       description: "State-of-the-art 8-classroom storey building completed in 2025, accommodating 300+ students.",
-      image: "public/images/storeybuidling.jpeg",
+      image: "/images/storeybuidling.jpeg",
       year: "2025"
     },
     {
       icon: <FaWater className="w-10 h-10" />,
       title: "Borehole Drilling",
       description: "Successful borehole drilling completed in 2025, providing clean and reliable water supply for the entire school community.",
-      image: "public/images/boreholedrilling.jpeg",
+      image: "/images/boreholedrilling.jpeg",
       year: "2025"
     }
   ];

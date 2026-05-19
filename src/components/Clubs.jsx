@@ -6,7 +6,7 @@ const Clubs = () => {
       icon: <FaTheaterMasks className="w-8 h-8" />,
       name: "Drama Club",
       description: "Award-winning drama team participating in Kenya Drama Festival. County champions 2023 & 2024.",
-      image: "public/images/dramafest2.jpeg",
+      image: "/images/dramafest2.jpeg",
       achievements: "County Champions 2023, 2024 | Regional Best Actor Award",
       meetingDay: "Every Wednesday, 4:00 PM"
     },
@@ -14,7 +14,7 @@ const Clubs = () => {
       icon: <FaMusic className="w-8 h-8" />,
       name: "Music & Choir",
       description: "School choir with national festival awards. Traditional music and choral verse specialists.",
-      image: "public/images/musicfest1.jpeg",
+      image: "/images/musicfest1.jpeg",
       achievements: "First Place Traditional Music 2024 | Second Place Choral Verse 2025",
       meetingDay: "Every Tuesday & Friday, 4:00 PM"
     },
@@ -22,7 +22,7 @@ const Clubs = () => {
       icon: <FaCross className="w-8 h-8" />,
       name: "Christian Union (CU)",
       description: "Spiritual growth and fellowship under Catholic guidance. Weekly prayers and community outreach.",
-      image: "public/images/cu.jpeg",
+      image: "/images/cu.jpeg",
       achievements: "Annual Retreat | Community Outreach Programs | Morning Devotions",
       meetingDay: "Every Monday & Thursday, 6:30 AM"
     },
@@ -30,7 +30,7 @@ const Clubs = () => {
       icon: <FaMicrophone className="w-8 h-8" />,
       name: "Debate Club",
       description: "Developing public speaking and critical thinking skills through competitive debates.",
-      image: "public/images/moniapic2dash.jpeg",
+      image: "/images/moniapic2dash.jpeg",
       achievements: "Regional Debate Quarter-finalists 2024 | Best Speaker Award",
       meetingDay: "Every Friday, 3:30 PM"
     },
@@ -46,7 +46,7 @@ const Clubs = () => {
       icon: <FaLeaf className="w-8 h-8" />,
       name: "Environmental Club",
       description: "Tree planting, waste management, and conservation initiatives.",
-      image: "public/images/environmanety1.jpeg",
+      image: "/images/environmanety1.jpeg",
       achievements: "500+ Trees Planted | Cleanest School Award 2024",
       meetingDay: "Every Thursday, 3:30 PM"
     },
@@ -54,7 +54,7 @@ const Clubs = () => {
       icon: <FaHandsHelping className="w-8 h-8" />,
       name: "Charity Club",
       description: "Community outreach, visiting children's homes, and fundraising for the needy.",
-      image: "public/images/charity.jpeg",
+      image: "/images/charity.jpeg",
       achievements: "Monthly Outreach Programs | Supported 50+ Needy Students",
       meetingDay: "Every Saturday, 9:00 AM"
     },

@@ -6,21 +6,21 @@ const Facilities = () => {
       icon: <FaBuilding className="w-10 h-10" />,
       name: "New Storey Building",
       description: "State-of-the-art 8-classroom storey building completed in 2025, accommodating 400+ students with modern amenities.",
-      image: "public/images/storeybuidling.jpeg",
+      image: "/images/storeybuidling.jpeg",
       year: "2025"
     },
     {
       icon: <FaBus className="w-10 h-10" />,
       name: "School Bus",
       description: "Modern 60-seater bus acquired in 2025, ensuring safe and reliable transportation for day scholars.",
-      image: "public/images/monicabus 2026-05-19 at 1.14.55 AM (1).jpeg",
+      image: "/images/monicabus 2026-05-19 at 1.14.55 AM (1).jpeg",
       year: "2025"
     },
     {
       icon: <FaWater className="w-10 h-10" />,
       name: "Borehole Project",
       description: "Successful borehole drilling providing clean and reliable water supply for the entire school community.",
-      image: "public/images/boreholedrilling.jpeg",
+      image: "/images/boreholedrilling.jpeg",
       year: "2025"
     },
     {
@@ -34,7 +34,7 @@ const Facilities = () => {
       icon: <FaBook className="w-10 h-10" />,
       name: "Modern Library",
       description: "Well-stocked library with 15,000+ books, e-learning resources, and quiet study areas.",
-      image: "public/images/library.avif",
+      image: "/images/library.avif",
       year: "2022"
     },
     {
@@ -48,7 +48,7 @@ const Facilities = () => {
       icon: <FaUtensils className="w-10 h-10" />,
       name: "School Kitchen",
       description: "Modern kitchen facility providing nutritious meals for students during school hours.",
-      image: "public/images/kitchen.avif",
+      image: "/images/kitchen.avif",
       year: "2020"
     },
     {
@@ -69,7 +69,7 @@ const Facilities = () => {
       icon: <FaShieldAlt className="w-10 h-10" />,
       name: "Security System",
       description: "24/7 security, CCTV cameras, and secure fencing for student safety.",
-      image: "public/images/cctvsec.webp",
+      image: "/images/cctvsec.webp",
       year: "2023"
     }
   ];

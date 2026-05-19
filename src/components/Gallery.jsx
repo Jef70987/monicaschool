@@ -11,7 +11,7 @@ const Gallery = () => {
   const images = Array.from({ length: 29 }, (_, i) => ({
     id: i + 1,
     title: `Gallery Image ${i + 1}`,
-    image: `/public/gallery/picG${i + 1}.jpeg`
+    image: `/gallery/picG${i + 1}.jpeg`
   }));
 
   useEffect(() => {
