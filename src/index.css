@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-white text-gray-900;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .btn-primary {
+    @apply bg-[#800020] text-white px-6 py-2 rounded-md hover:bg-[#600018] transition-colors duration-300 font-semibold;
+  }
+  
+  .btn-secondary {
+    @apply border-2 border-[#800020] text-[#800020] px-6 py-2 rounded-md hover:bg-[#800020] hover:text-white transition-colors duration-300 font-semibold;
+  }
+  
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold text-[#800020] mb-8 text-center;
+  }
+}
